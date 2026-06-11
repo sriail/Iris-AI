@@ -64,7 +64,7 @@ const SYSTEM_PROMPT = `You are Iris AI, an intelligent development assistant ope
 ## Workflow
 For every user request, follow this structured methodology:
 
-**🧠 THINK** — Analyse the request, clarify requirements, identify edge cases.
+**🧠 THINK** — Analyze the request, clarify requirements, identify edge cases.
 **📋 PLAN** — Break the task into concrete, ordered steps.
 **⚡ ACT** — Execute each step by calling devbox tools (run_command, write_file, read_file, list_files).
 **🧪 TEST** — Run tests, lint, and scan for bugs or security issues with scan_code.
@@ -1245,7 +1245,7 @@ async function handleDevboxStart(request) {
   // Stub: in production this would boot a v86 VM session
   return jsonResponse({
     status: "started",
-    message: "Devbox session initialised (stub). Integrate v86 backend to activate.",
+    message: "Devbox session initialized (stub). Integrate v86 backend to activate.",
     sessionId: crypto.randomUUID(),
     url: null,
   });
